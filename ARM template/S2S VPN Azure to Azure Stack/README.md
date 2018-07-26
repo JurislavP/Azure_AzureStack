@@ -6,7 +6,7 @@ ARM templates that create required VPN configuration for S2S connection between 
 
 - Open PowerShell and Login into Azure
 - Create Resource Group
-- Run New-AzureRmResourceGroupDeployment command
+- Run New-AzureRmResourceGroupDep loyment command
 
 ```
 In progress, Please comeback later
