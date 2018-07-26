@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "subnet1Name": {
+          "value": "VNet001-Subnet01"
+      },
+      "vpnType": {
+          "value": "RouteBased"
+      },
+      "localGatewayName": {
+          "value": "LNGgtw"
+      },
+      "localGatewayIpAddress": {
+          "value": "1.2.3.4"
+      },
+      "localAddressPrefix": {
+          "value": "192.168.100.0/24"
+      },
+      "virtualNetworkName": {
+          "value": "VNet001"
+      },
+      "azureVNetAddressPrefix": {
+          "value": "10.10.4.0/22"
+      },
+      "subnetPrefix": {
+          "value": "10.10.4.0/25"
+      },
+      "gatewaySubnetName": {
+          "value": "GatewaySubnet"
+      },
+      "gatewaySubnetPrefix": {
+          "value": "10.10.4.128/25"
+      },
+      "gatewayPublicIPName": {
+          "value": "azureGatewayIP"
+      },
+      "gatewaySku": {
+          "value": "Basic"
+      },
+      "ConnectionName": {
+          "value": "AzuretoASDK"
+      },
+      "VPNgatewayname": {
+          "value": "VPNGTW"
+      },
+      "sharedKey": {
+          "value": "123"
+      }
+    }
+  }
